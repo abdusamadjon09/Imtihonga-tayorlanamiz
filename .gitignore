@@ -1,0 +1,5 @@
+.env
+data/
+books_inbox/
+__pycache__/
+*.pyc
