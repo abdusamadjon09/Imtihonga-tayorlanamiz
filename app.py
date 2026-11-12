@@ -8,7 +8,7 @@ from telegram.ext import (
     ConversationHandler, ContextTypes, filters
 )
 from config import BOT_TOKEN, PORT
-from database.db import init_db
+from database.database_db import init_db
 from bot.handlers.registration import (
     start, cancel, name_step, grade_step, university_step, direction_step,
     subjects_step, NAME, GRADE, UNIVERSITY, DIRECTION, SUBJECTS
